@@ -2,7 +2,6 @@
   "name": "nirdavid",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://nirdavid.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
