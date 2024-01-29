@@ -81,4 +81,4 @@ const Timeline = ({ title, experiences }) => {
   );
 };
 
-export default SectionWrapper(Timeline, "work");
+export default SectionWrapper(Timeline);

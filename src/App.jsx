@@ -11,8 +11,8 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <Timeline experiences={experiences} title="Work Experience."/>
-        <Timeline experiences={education} title="Education." />
+        <Timeline experiences={experiences} title="Work Experience." idName="work"/>
+        <Timeline experiences={education} title="Education." idName="education" />
         <Tech />
 
       </div>
