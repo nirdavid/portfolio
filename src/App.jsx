@@ -14,7 +14,7 @@ const App = () => {
         <Timeline experiences={experiences} title="Work Experience." idName="work" preTitle="What I have done so far"/>
         <Timeline experiences={education} title="Education." idName="education" />
         <Tech />
-        <Contact/>
+        <Contact idName="contact"/>
       </div>
     </BrowserRouter>
   );

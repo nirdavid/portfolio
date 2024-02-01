@@ -31,10 +31,10 @@ export const navLinks = [
     id: "education",
     title: "Education",
   },
-  // {
-  //   id: "contact",
-  //   title: "Contact",
-  // },
+  {
+    id: "contact",
+    title: "Contact",
+  },
 ];
 
 const services = [
