@@ -23,9 +23,7 @@ import checkpoint from "./company/checkpoint.png";
 import tau from "./education/tau.png";
 import biu from "./education/biu.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import linkedin from "./linkedin.png";
 
 export {
   logo,
@@ -47,9 +45,7 @@ export {
   fibo,
   crazylister,
   checkpoint,
-  carrent,
-  jobit,
-  tripguide,
   tau,
-  biu
+  biu,
+  linkedin
 };

@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-import {  Timeline, Hero, Navbar, Tech } from "./components";
+import {Timeline, Hero, Navbar, Tech, Contact} from "./components";
 import {experiences, education} from "./constants";
 
 const App = () => {
@@ -11,10 +11,10 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <Timeline experiences={experiences} title="Work Experience." idName="work"/>
+        <Timeline experiences={experiences} title="Work Experience." idName="work" preTitle="What I have done so far"/>
         <Timeline experiences={education} title="Education." idName="education" />
         <Tech />
-
+        <Contact/>
       </div>
     </BrowserRouter>
   );

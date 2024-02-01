@@ -55,13 +55,13 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-const Timeline = ({ title, experiences }) => {
+const Timeline = ({ preTitle, title, experiences }) => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
-        </p>
+          {preTitle && (<p className={`${styles.sectionSubText} text-center`}>
+            {preTitle}
+        </p>)}
         <h2 className={`${styles.sectionHeadText} text-center`}>
             {title}
         </h2>
